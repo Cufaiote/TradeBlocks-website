@@ -1,0 +1,51 @@
+.square{
+  width: 40%;
+  border: 3px solid;
+  border-radius: 45px;
+  padding: 5px;
+  text-align: center center;
+  vertical-align: middle;
+  background-color:white;
+}
+.login-form, .register-form{
+  height: 832px;
+  background-image: url("../img/london.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding-top: 200px;
+}
+.register-form{
+  height: 982px;
+}
+.login-form h1, .register-form h1{
+  color: green;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 47px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bolder;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.fa-lock, .fa-paper-plane, .fa-user, .fa-mobile{
+  width: 21px;
+}
+
+.input-group-addon {
+  max-width: 42px;
+  text-align: center;
+}
+
+.fa-check {
+  color: #fff;
+  left: 23px;
+  top: 17px;
+  font-size: 5px !important;
+  position: absolute;
+}
